@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink That Matecito</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+</head>
+
+<body class="body-home">
+    <span class="up-web"><img src="./img/upload.png" alt="flecha subir"></span>
+    <header class="header-principal inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <img src=".//img/logomate.png" alt="Drink matecito logo">
+                </a>
+                <nav class="navegacion">
+                    <a href="#productos">Productos</a>
+                    <a href="#btn-open-form">Contacto</a>
+                    <a href="carrito.html"><img src="./img/shopping-cart.png" alt="carrito de compras"></a>
+                </nav>
+            </div>
+            <h1 class="centrar-texto">Drink That Matecito!</h1>
+        </div>
+    </header>
+
+    <!--Este slider lo hice con unas fotos de Unsplash.com,
+         las mismas las voy a cambiar mas adelante por fotos originales del emprendimiento.-->
+
+    <div class="slider">
+        <ul>
+            <li>
+                <img src="./img/sliderMate1.jpg" alt="foto de mate">
+            </li>
+            <li>
+                <img src="./img/sliderPintura.jpg" alt="foto pincel con pinturas">
+            </li>
+            <li>
+                <img src="./img/sliderPintura2.jpg" alt="pinceles">
+            </li>
+            <li>
+                <img src="./img/sliderPintura3.jpg" alt="pinceles con pintura">
+            </li>
+        </ul>
+    </div>
+
+    <!-- En esta seccion, mas adelante con las cosas que vaya aprendiendo, me gustaria cambiar la informacion suelta en los parrafos, en una animacion cuando se le de click
+    a los iconos de seguiridad, precio y tiempo se volteen y aparezca los <p>.-->
+
+    <section class="contenedor seccion">
+        <h2 class="fw-300 centrar-texto">Más Sobre Nosotros</h2>
+
+        <div class="iconos-nosotros">
+            <div class="icono" id="i-secure">
+                <img src="./img/security.png" alt="Icono Seguridad">
+                <h3>Seguridad</h3>
+                <p>Con nosotros, tu compra esta %100 segura, nos manejamos con las mejores medidas de seguridad del país.!</p>
+            </div>
+
+            <div class="icono" id="i-price">
+                <img src="./img/price-tag.png" alt="Icono Precio">
+                <h3>El Mejor Precio</h3>
+                <p>El mejor precio en el mercado! Totalmente personalizados, al mejor precio, usamos las mejores materias primas.</p>
+            </div>
+
+            <div class="icono" id="i-time">
+                <img src="./img/time-left.png" alt="Icono a Tiempo">
+                <h3>A Tiempo</h3>
+                <p>No nos demoramos mas de lo que prometemos, entregamos todos los pedidos en tiempo y forma, como al cliente le gusta.!</p>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <main class="seccion contenedor">
+
+        <!-- Por el momento agregue estas fotos iguales, ya que las originales las tendre en unos dias! El boton de Agregar tambien sera diferente,
+        voy agregar un signo + con algun diseño-->
+        <h2 class="centrar-texto" id="productos">Nuestros Productos!</h2>
+        <div class="contenedor-anuncios">
+            <div class="anuncio">
+                <img src="./img/mate1.jpg" alt="MATE1">
+                <div class="contenido-anuncio">
+                    <h3>Mate de madera</h3>
+                    <p>Descripcion del mate</p>
+                    <p class="precio">$650</p>
+                    <div class="agregar-carrito">
+                        <a href="carrito.html" class="boton boton-violeta">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="./img/mate1.jpg" alt="MATE2">
+                <div class="contenido-anuncio">
+                    <h3>Mate de madera</h3>
+                    <p>Descripcion del mate</p>
+                    <p class="precio">$600</p>
+                    <div class="agregar-carrito">
+                        <a href="carrito.html" class="boton boton-violeta">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="./img/mate1.jpg" alt="MATE3">
+                <div class="contenido-anuncio">
+                    <h3>Mate de madera</h3>
+                    <p>Descripcion del mate</p>
+                    <p class="precio">$600</p>
+                    <div class="agregar-carrito">
+                        <a href="carrito.html" class="boton boton-violeta">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-anuncios">
+            <div class="anuncio">
+                <img src="./img/tabla.jpg" alt="tabla sushi">
+                <div class="contenido-anuncio">
+                    <h3>Tabla de sushi</h3>
+                    <p>Descripcion de tabla</p>
+                    <p class="precio">$500</p>
+                    <div class="agregar-carrito">
+                        <a href="carrito.html" class="boton boton-violeta">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="./img/palitos.jpg" alt="palitos chinos">
+                <div class="contenido-anuncio">
+                    <h3>Palitos Sushi</h3>
+                    <p>Descripcion de palitos</p>
+                    <p class="precio">$450</p>
+                    <div class="agregar-carrito">
+                        <a href="carrito.html" class="boton boton-violeta">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="anuncio">
+                <img src="./img/mate1.jpg" alt="MATE6">
+                <div class="contenido-anuncio">
+                    <h3>Mate de madera</h3>
+                    <p>Descripcion del mate</p>
+                    <p class="precio">$600</p>
+                    <div class="agregar-carrito">
+                        <a href="carrito.html" class="boton boton-violeta">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br><br>
+
+    <!--Boton expandir Contacto-->
+
+    <div class="contenedor-btn">
+        <button class="btn-open-form" id="btn-open-form" onclick="openForm()">
+            <img src="./img/phone.png" alt="boton de despliegue">
+        </button>
+    </div>
+
+    <main class="contenedor seccion contenido-centrado">
+        <form action="" class="contact-form" id="contact-form">
+            <fieldset class="fieldset">
+                <legend>Informacion Personal</legend>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" placeholder="Ingrese su Nombre" required>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" placeholder="Ingrese su correo electronico" required>
+
+                <label for="phone">Telefono:</label>
+                <input type="tel" id="phone" placeholder="Tu Telefono" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Informacion sobre diseño</legend>
+                <label for="opciones">Pintado o estampado:</label>
+                <select id="opciones">
+                <option value="" disabled selected>--Seleccione--</option>
+                <option value="pintado">Pintado</option>
+                <option value="estampado">Estampado</option>
+            </select>
+                <label for="cantidad">Cantidad</label>
+                <input type="number">
+            </fieldset>
+
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>Como desea ser Contactado:</p>
+
+                <div class="forma-contacto">
+                    <label for="phone">Telefono</label>
+                    <input type="radio" name="contacto" value="telefono" id="phone">
+
+                    <label for="mail">E-Mail</label>
+                    <input type="radio" name="contacto" value="correo" id="mail">
+                </div>
+                <p>Si eligio telefono, elija la fecha y hora</p>
+                <label for="date">Fecha:</label>
+                <input type="date" id="date">
+                <label for="time">Hora:</label>
+                <input type="time" id="time" min="09:00" max="18:00">
+            </fieldset>
+            <input type="submit" class="boton boton-violeta" id="btn-submit">
+            <button class="boton boton-violeta" onclick="closeForm()">Cerrar</button>
+        </form>
+    </main>
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="#productos">Productos</a>
+                <a href="#btn-open-form">Contacto</a>
+                <a href="carrito.html"><img src="./img/shopping-cart.png" alt="carrito de compras"></a>
+            </nav>
+            <p class="copyright">Todos los Derechos Reservados 2020 &copy; </p>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</body>
+
+</html>
